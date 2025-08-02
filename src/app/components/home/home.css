@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1ABC9C;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.home {
+    padding-block: 60px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.star-container {
+    position: relative;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.star-container::before,
+.star-container::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #ffffff;
+    top: 50%;
+}
+
+.star-container::before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.star-container::after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+p {
+    font-size: 11px;
+}

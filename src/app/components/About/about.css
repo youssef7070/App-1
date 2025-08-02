@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1ABC9C;
+}
+
+.about {
+    padding-block: 100px !important;
+    padding-block: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.about h2 {
+    font-size: 22px;
+}
+
+.star-container {
+    position: relative;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.star-container::before,
+.star-container::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    top: 50%;
+}
+
+.star-container::before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.star-container::after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+p {
+    font-size: 11px;
+    padding-block: 6px;
+}
