@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/App-1": {},
+    "/App-1/about": {},
+    "/App-1/contact": {},
+    "/App-1/home": {},
+    "/App-1/portfolio": {}
+  }
+}
