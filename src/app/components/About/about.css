@@ -4,11 +4,9 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #1ABC9C;
-}
 
 .about {
+    background-color: #1ABC9C;
     padding-block: 100px !important;
     padding-block: 100px;
     position: relative;
