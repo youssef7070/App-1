@@ -6,7 +6,9 @@
 
 body {
     color: #2C3E50 !important;
+    padding-top: 100px;
 }
+
 
 .portfolio .about h2 {
     font-size: 22px;
