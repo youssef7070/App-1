@@ -11,6 +11,6 @@ export default `<!doctype html>
 
 <body ngcm="">
   <app-root></app-root>
-<script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="scripts-WL2QHKC5.js" defer=""></script><script src="main-FBGVZ2YQ.js" type="module"></script></body>
+<script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="scripts-WL2QHKC5.js" defer=""></script><script src="main-B3E6PL2V.js" type="module"></script></body>
 
 </html>`;
